@@ -14,8 +14,9 @@ System.out.println(StringCollectionHelper.selectContaining(strings, "y", false))
 The generic method replaceDuplicates is intended to delete direct repetitions (single or multiple) in an arbitrary list and replace them with a string of the form *x for the number of repetitions (total):
   
 List<String> names =
-    Lists.newArrayList("Tick", "Trick", "Trick", "Trick", "Track",
-            "Donald", "Donald", "Trick");
+    Lists.newArrayList("Tick", "Trick", "Trick", "Trick", "Track","Donald", "Donald", "Trick");
+  
+  
 // Output: [Tick, Trick, *3, Track, Donald, *2, Trick]
 StringCollectionHelper.countDuplicates(names);
 System.out.println(names);
