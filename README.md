@@ -18,5 +18,7 @@ List<String> names =
   
   
 // Output: [Tick, Trick, *3, Track, Donald, *2, Trick]
+ 
 StringCollectionHelper.countDuplicates(names);
+  
 System.out.println(names);
