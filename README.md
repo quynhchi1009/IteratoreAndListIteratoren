@@ -1,4 +1,7 @@
-# IteratoreAndListIteratoren
+# COUNTING WORDS IN ARRAYLIST
+USING Iteratore And ListIteratoren
+
+
 1.1 Selection of strings optionally with upper and lower case letters:
 The method selectContaining is to return from a set of strings those which contain a given substring. The consideration of the upper and lower case should be optional.
 
